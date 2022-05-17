@@ -1,22 +1,22 @@
 @font-face {
   font-family: "Karbon";
-  src: url("./fonts/karbon/Karbon-Semibold.woff2") format("woff2"),
-       url("./fonts/karbon/Karbon-Semibold.woff") format("woff"),
-       url("./fonts/karbon/Karbon-Semibold.otf") format("opentype");
+  src: url("../fonts/karbon/Karbon-Semibold.woff2") format("woff2"),
+       url("../fonts/karbon/Karbon-Semibold.woff") format("woff"),
+       url("../fonts/karbon/Karbon-Semibold.otf") format("opentype");
   font-weight: 600;
 }
 @font-face {
   font-family: "Karbon";
-  src: url("./fonts/karbon/Karbon-Regular.woff2") format("woff2"),
-       url("./fonts/karbon/Karbon-Regular.woff") format("woff"),
-       url("./fonts/karbon/Karbon-Regular.otf") format("opentype");
+  src: url("../fonts/karbon/Karbon-Regular.woff2") format("woff2"),
+       url("../fonts/karbon/Karbon-Regular.woff") format("woff"),
+       url("../fonts/karbon/Karbon-Regular.otf") format("opentype");
   font-weight: 400;
 }
 @font-face {
   font-family: "Karbon Semibold";
-  src: url("./fonts/karbon/Karbon-Semibold.woff2") format("woff2"),
-       url("./fonts/karbon/Karbon-Semibold.woff") format("woff"),
-       url("./fonts/karbon/Karbon-Semibold.otf") format("opentype");
+  src: url("../fonts/karbon/Karbon-Semibold.woff2") format("woff2"),
+       url("../fonts/karbon/Karbon-Semibold.woff") format("woff"),
+       url("../fonts/karbon/Karbon-Semibold.otf") format("opentype");
   font-weight: 600;
 }
 
@@ -74,11 +74,13 @@ p:last-child {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 35px;
+  margin: 10px 0;
 }
 
 h2 {
-  font-size: 65px;
+  font-size: 55px;
+  margin: 25px 0;
 }
 
 h3 {

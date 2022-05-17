@@ -2,7 +2,11 @@ body {
   margin: 0;
 }
 img {
-  object-fit: cover;
+  object-fit: contain;
+  max-width: 100%;
+}
+.content {
+  min-height: 100vh;
 }
 
 // img.rounded, .rounded img, .rounded, .rounded iframe {
