@@ -1,0 +1,87 @@
+@media (min-width:1040px) {
+  #menu-main-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+header {
+  background-color: $blue-lightest;
+
+  // font
+  a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: $ff-main-b;
+  }
+
+  // mobile styling
+  @media (max-width:767px) {
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 0;
+      img {
+        width: auto;
+        height: 51.7px;
+      }
+    }
+    .fl-row-content-wrap {
+      padding: 0;
+    }
+
+    #menu-main-menu > .menu-item {
+      border-top: 1px $blue-light solid !important;
+      font-size: 20px;
+      > div a,
+      > a {
+        font-size: 24px;
+      }
+      a {
+        padding-top: 18px;
+        color: $blue;
+      }
+      .menu-item a {
+        padding-top: 5px;
+      }
+    }
+  }
+}
+
+.fl-menu-mobile-toggle.hamburger {
+  transition: $transition;
+  &::before {
+    content: "\f0c9";
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    color: $orange;
+    background-color: transparent;
+    transition: $transition;
+  }
+  &.fl-active,
+  &:hover, &:active, &:focus, &:focus-visible, &:focus-within {
+    border: none;
+    background-color: initial;
+  }
+  &.fl-active::before {
+    content: "\f00d";
+    // color: $orange;
+    // background-color: initial;
+  }
+  .svg-container {
+    display: none !important;
+  }
+}
+
+// submenu alignment fix
+.fl-node-61a4549b59394 .menu .fl-has-submenu.fl-menu-submenu-right .sub-menu {
+  left: 0;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "orbit-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass -w ./assets/css/scss/ -o ./assets/css/ --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thisisannie/orbit-portal.git"
+  },
+  "author": "Annie Kyles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisannie/orbit-portal/issues"
+  },
+  "homepage": "https://github.com/thisisannie/orbit-portal#readme"
+}
