@@ -23,6 +23,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
   color: $grey-light;
   font-size: 19px;
   font-family: $ff-main;
+  outline: none;
   &:last-child {
     margin-bottom: 0;
   }

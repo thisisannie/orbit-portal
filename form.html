@@ -9,30 +9,26 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<div id="page-home" class="content bg-blue-lightest">
+	<div id="page-form" class="content bg-blue-lightest">
 		<header>
 			<img src="assets/images/orbit-university-of-auckland-logos.png" alt="Placeholder" id="logo-orbit" class="logo">
 		</header>
 		<div class="container">
 			<div class="row">
 				<div class="col col-md-6">
-					<div class="kiaora">
-						<h1>Kia ora</h1>
-						<h2>Please enter<br>
-							your Orbit<br>
-							booking number
-						</h2>
-						<form action="form.html">
-							<fieldset>
-								<input type="text" placeholder="Enter Orbit booking number">
-								<button type="submit">Go</button>
-							</fieldset>
-						</form>
-					</div>                    
+					<h2>Orbit Travel Form</h2>
+					<p>Please fill in the details below:</p>
+					<form action="form.html">
+						<fieldset>
+							<h4>Traveller Details:</h4>
+							<label for="firstname">First name*</label>
+							<input id="firstname" type="text" placeholder="First name*">
+							<button type="submit">Submit</button>
+						</fieldset>
+					</form>
 				</div>
 			</div>
 		</div>
-		<img src="assets/images/header-image.png" alt="" class="hero-home">
 	</div>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="assets/js/custom.js"></script>
