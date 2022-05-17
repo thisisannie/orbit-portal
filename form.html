@@ -14,15 +14,39 @@
 			<img src="assets/images/orbit-university-of-auckland-logos.png" alt="Placeholder" id="logo-orbit" class="logo">
 		</header>
 		<div class="container">
-			<div class="row">
-				<div class="col col-md-6">
+			<div class="row justify-content-center">
+				<div class="col col-md-6 col-center">
 					<h2>Orbit Travel Form</h2>
 					<p>Please fill in the details below:</p>
 					<form action="form.html">
 						<fieldset>
 							<h4>Traveller Details:</h4>
-							<label for="firstname">First name*</label>
-							<input id="firstname" type="text" placeholder="First name*">
+
+							<label class="animate">First name*</label>
+							<input type="text" placeholder="First name*">
+
+							<label class="animate">Last name*</label>
+							<input type="text" placeholder="Last name*">
+
+							<label class="animate">Orbit Booking Number*</label>
+							<input type="text" placeholder="Orbit Booking Number*">
+
+							<label><p><strong>The travellers are*</strong></p></label>
+							<label class="p">
+								<input type="radio" name="travellers">
+								Staff (including mix of Staff & Students)
+							</label>
+							<label class="p">
+								<input type="radio" name="travellers">
+								Student(s)
+							</label>
+							<label class="p">
+								<input type="radio" name="travellers">
+								Non-UoA Staff or Student(s)
+							</label>
+
+						</fieldset>
+						<fieldset>
 							<button type="submit">Submit</button>
 						</fieldset>
 					</form>

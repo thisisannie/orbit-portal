@@ -43,14 +43,14 @@ h4, h5 {
   line-height: 1;
 }
 
-h6, p, body, li {
+h6, p, .p, body, li {
   font-family: $ff-main;
   strong, b {
     font-family: $ff-main-b;
   }
 }
 
-body, h4, h5, p, li {
+body, h4, h5, p, .p, li {
   color: $blue-dark;
   @media (max-width: 767px) {
     color: $blue-darkest;
@@ -59,17 +59,17 @@ body, h4, h5, p, li {
 
 // Individual font styling
 
-body, p, li {
+body, p, .p, li {
   font-size: 22px;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
 }
-p, li {
+p, .p, li {
   a {
     font-family: $ff-main-b;
   }
 }
-p:last-child {
+p:last-child, .p:last-child {
   margin-bottom: 0;
 }
 
@@ -108,7 +108,7 @@ small {
 
 .color-reverse {
   color: white;
-  h1, h2, h3, h4, h5, h6, p, body, li {
+  h1, h2, h3, h4, h5, h6, p, .p, body, li {
     color: white;
   }
 }
@@ -139,7 +139,7 @@ blockquote, .blockquote h2, .blockquote h3 {
   }
 }
 @media (max-width: 991px) {
-  body, p, li {
+  body, p, .p, li {
     font-size: 21px;
   }
   
@@ -173,7 +173,7 @@ blockquote, .blockquote h2, .blockquote h3 {
 }
 
 @media (max-width: 767px) {
-  body, p, li {
+  body, p, .p, li {
     font-size: 20px;
   }
   

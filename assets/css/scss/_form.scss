@@ -1,16 +1,24 @@
 form {
   max-width: 100%;
 }
+fieldset {
+  margin: 30px 0;
+}
 
 label {
-  padding: 0 25px 0;
+  // padding: 0 25px 0;
   color: $grey-light;
   font-size: 16px;
   display: block;
-  max-height: 0;
   margin-bottom: 0;
   overflow: hidden;
   transition: $transition;
+  &.animate {
+    max-height: 0;
+    &.show {
+      max-height: 40px;
+    }
+  }
 } 
 input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url], select, textarea {
   max-width: 100%;
@@ -52,11 +60,6 @@ select, .button, button, input[type=select] {
   padding-right: 35px;
 }
 
-
-
-label.show {
-  max-height: 40px;
-}
 input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url] {
   width: 100%;
   border-radius: 50px;
