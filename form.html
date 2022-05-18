@@ -31,20 +31,110 @@
 							<label class="animate">Orbit Booking Number*</label>
 							<input type="text" placeholder="Orbit Booking Number*">
 
-							<label><p><strong>The travellers are*</strong></p></label>
-							<label class="p">
-								<input type="radio" name="travellers">
-								Staff (including mix of Staff & Students)
-							</label>
-							<label class="p">
-								<input type="radio" name="travellers">
-								Student(s)
-							</label>
-							<label class="p">
-								<input type="radio" name="travellers">
-								Non-UoA Staff or Student(s)
-							</label>
+							<div class="radio-group travellers">
+								<label><p><strong>The travellers are*</strong></p></label>
+								<label class="p">
+									<input type="radio" name="travellers">
+									Staff (including mix of Staff & Students)
+								</label>
+								<label class="p">
+									<input type="radio" name="travellers">
+									Student(s)
+								</label>
+								<label class="p">
+									<input type="radio" name="travellers">
+									Non-UoA Staff or Student(s)
+								</label>
+							</div>
+						</fieldset>
+						<fieldset>
+							<h4>Booker Details:</h4>
 
+							<label class="animate">First name</label>
+							<input type="text" placeholder="First name">
+
+							<label class="animate">Last name</label>
+							<input type="text" placeholder="Last name">
+
+							<label class="animate">Email*</label>
+							<input type="text" placeholder="Email*">
+
+							<label class="animate">Username*</label>
+							<input type="text" placeholder="Username*">
+						</fieldset>
+						<fieldset>
+							<h4>Travel Details:</h4>
+
+							<label class="animate">Reason for travel*</label>
+							<select>
+								<option disabled selected>Travel reason</option>
+								<option>Option 1</option>
+								<option>Other</option>
+							</select>
+
+							<label class="animate">Other reason</label>
+							<input type="text" placeholder="Other reason">
+
+							<label class="animate">Faculty or Service Division paying for this travel?*</label>
+							<select>
+								<option disabled selected>Travel payment</option>
+								<option>Option 1</option>
+								<option>Option 2</option>
+							</select>
+
+							<div class="radio-group staff-development">
+								<label><p><strong>Is this expenditure related to staff development?*</strong></p></label>
+								<label class="p">
+									<input type="radio" name="staff-development">
+									Yes
+								</label>
+								<label class="p">
+									<input type="radio" name="staff-development">
+									No
+								</label>
+							</div>
+
+							<div class="radio-group charge">
+								<label><p><strong>Is the travel to be charged to a...?*</strong></p></label>
+								<label class="p">
+									<input type="radio" name="charge">
+									Research project
+								</label>
+								<label class="p">
+									<input type="radio" name="charge">
+									Doctoral PReSS Account
+								</label>
+								<label class="p">
+									<input type="radio" name="charge">
+									Department/Service devision (including non-research projects)
+								</label>
+							</div>
+
+							<div class="radio-group business-personal">
+								<label><p><strong>Does this request combine business and personal travel?*</strong></p></label>
+								<label class="p">
+									<input type="radio" name="business-personal">
+									Yes
+								</label>
+								<label class="p">
+									<input type="radio" name="business-personal">
+									No
+								</label>
+								<p class="small">For insurance purposes it is important for the Compliance Team to understand how many days of any trip are not for work.</p>
+							</div>
+						</fieldset>
+						<fieldset>
+							<h4>Acknowledgements:</h4>
+							<div class="radio-group acknowledgement">
+								<label class="p">
+									<input type="radio" name="acknowledgement">
+									This travel has been approved to proceed and complies with the <a>UoA Travel Policy</a>. The Traveller(s) acknowledge that submitting a travel request without obtaining approval falls under the 'Consequences for Non-Compliance' section of the&nbsp;policy.*
+								</label>
+							</div>
+							<label class="animate">Traveller's line manager or superviser*</label>
+							<input type="text" placeholder="Traveller's line manager or superviser*">
+							<p class="small">For Doctoral PReSS Account travel please add you superviser's username. For all other travel please add your line manager's username, e.g.&nbsp;SKAU583</p>
+							<p class="small">You can find the username by searching their name on the University Directory, via the Staff Intranet.</p>
 						</fieldset>
 						<fieldset>
 							<button type="submit">Submit</button>
