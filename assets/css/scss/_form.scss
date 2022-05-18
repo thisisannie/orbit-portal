@@ -39,6 +39,9 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 }
 .radio-group {
   margin-bottom: 20px;
+  label {
+    margin: 5px 0;
+  }
 }
 
 input[type="radio"] {
@@ -47,7 +50,7 @@ input[type="radio"] {
   appearance: none;
   width: 30px;
   height: 30px;
-  margin: 5px 0;
+  margin-right: 3px;
   border: 1px $grey-light solid;
   border-radius: 50%;
   background-color: #fff;
