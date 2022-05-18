@@ -1,18 +1,24 @@
 body {
   margin: 0;
 }
+
 img {
   object-fit: contain;
   max-width: 100%;
 }
+
 .content {
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
+  @media (min-width: 768px) {
+    padding-bottom: 20px; // for footer height - position:absolute
+  }
 }
-
-// img.rounded, .rounded img, .rounded, .rounded iframe {
-//   border-radius: $img-radius-small;
-// }
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .bg-blue-lightest {
   background-color: $blue-lightest;
