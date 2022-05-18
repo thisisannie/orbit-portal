@@ -1,4 +1,8 @@
 header {
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    margin-bottom: 50px;
+  }
   .logo {
     height: 62px;
     width: auto;
